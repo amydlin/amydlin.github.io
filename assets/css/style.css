@@ -1,17 +1,16 @@
-
 /*overall style*/
 html {
-    font-family: 'Open Sans';
+    font-family: 'Archivo';
 }
 
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
-}
+*{
+    margin: 0;
+ }
 
 /* unvisited link */
 a:link {
     color: #000000;
+    text-decoration: none;
 }
 
 /* visited link */
@@ -30,27 +29,69 @@ a:active {
     color: #777777;
 }
 
-/*general font sizes for the entire website*/
 h1 {
-    font-size: 3rem;
-    font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: "Archivo";
 }
 
 h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-family: "Georgia";
+    font-weight: 400;
+    line-height: 2.5rem;
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-family: "Archivo";
 }
 
 h4 {
-    font-size: 1.75rem;
-    padding-bottom: 3rem;
+    font-size: 1.5rem;
+    font-family: "Archivo";
+    font-weight: 300;
+}
+
+h5 {
+    font-size: 1rem;
+    font-family: "Archivo";
+    font-weight:400;
+    text-transform: uppercase;
+}
+
+h6 {
+    font-size: 1rem;
+    font-family: "Georgia";
+    font-weight: 300;
+    font-style: italic;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.05rem;
+    font-family: "Archivo";
+    font-weight: 300;
+    line-height: 2.25rem;
+/*    margin-top: 0;*/
+}
+
+li {
+    font-size: 1rem;
+    font-family: "Archivo";
+    font-weight: 300;
+    line-height: 1.75rem;
+    list-style-type: disc;
+}
+
+ul {
+    margin-top: -3rem;
+    padding-bottom: 4rem;
+}
+
+ol {
+    margin-top: -3rem;
+    padding-bottom: 4rem;
 }
 
 bold {
@@ -59,37 +100,63 @@ bold {
 
 /*style for nav*/
 
+body {
+    padding-left: 15%;
+}
+
 body nav {
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
 }
 
-body nav div#name h1 {
-    padding-left: 4rem;
+.nav {
+    display: inline-block;
+    width: 100%;
 }
 
-body nav div h3 {
-    padding-top: 1.5rem;
+.logo {
+    float: left;
 }
 
-/*style for pages in nav bar*/
-body nav div#pages h3 {
+.pages {
+    float: right;
+    padding-right: 15%;
+}
+
+.pages h1 {
     float: left;
     padding-right: 1rem;
-    padding-bottom: 2rem;
+    font-weight: 300;
 }
 
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
 
 /*style for main page*/
 
+.desc {
+    padding-bottom: 4rem;
+    padding-right: 15%;
+}
+
+.desc h2 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+body div.projects div {
+    padding-bottom: 4rem;
+}
+
+.projects div h2 {
+
+}
+
+body div.projects div p {
+    width: 450px;
+    padding-top: 0.5rem;
+    padding-bottom: 4rem;
+}
+
+/*
 body div#projects {
     
 }
@@ -98,11 +165,170 @@ body div#projects a img {
     width: 45%;
     padding: 1rem 1rem;  
     display: block;
-/*    padding: 0 0;*/
+    padding: 0 0;
+    float: left;
+}
+*/
+
+/*style for niche page*/
+
+.sidebar {
+    width: 250px;
+    float: left;
+    margin: 0;
+    padding-right: 100px;
+}
+.sidebar p.label {
+    color: #aaa;
+    font-weight: 400;
+}
+
+.sidebar p.stuff {
+    padding-bottom: 1rem;
+    font-weight: 400;
+/*    padding-top: 0.5rem;*/
+}
+
+.top {
+    float: left;
+    width: 70%;
+}
+
+.main {
+    padding-left: 350px;
+    width: 45%;
+    margin: 0;
+    overflow: auto;
+}
+
+.main h2 {
+    padding-bottom: 2rem;
+}
+
+.main p {
+    padding-bottom: 4rem;
+}
+
+.main .image {
+    padding-bottom: 4rem;
+}
+
+.main h5 {
+    padding-bottom: 1.25rem;
+}
+
+.main h6 {
+    padding-bottom: 4rem;
+}
+
+img.wide {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4rem;
+    width: 80%;
+}
+
+img.narrow {
+    padding-bottom: 4rem;
+    width: 100%;
+}
+
+.narrow {
+    padding-bottom: 2rem;
+    
+}
+
+img.closeup {
+    width: 20%;
+    float: left;
+    align-content: center;
+}
+
+p.closeup {
+    width: 20%;
+    float: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.vid {
+    width:45%;
+    height: 100%;
+    float: left;
+    padding-bottom: 0;
+}
+
+.vid2 {
+    width:45%;
+    height: 100%;
+    float: left;
+    padding-bottom: 0;
+}
+
+.vidtext {
+    padding-left: 2rem;
+    width: calc(55% - 2rem);
     float: left;
 }
 
-/*style for product1 page*/
+.vid h2 {
+    font-size: 1.5rem;
+    padding-bottom: 0;
+}
+
+.vid p {
+    padding-bottom: 2rem;
+}
+
+.vid ul {
+    margin-top: 0;
+}
+
+.vid li {
+    font-size: 1rem;
+    font-family: "Archivo";
+    font-weight: 300;
+    line-height: 1.75rem;
+    list-style-type: disc;
+}
+
+.vidblock {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2rem;
+}
+
+.vidblock2 {
+    
+}
+
+video {
+    width: 100%;
+}
+
+.invisible {
+    color: #fff;
+}
+
+
+
+
+
+/*
+.main ul li {
+    list-style-type: disc;
+}
+*/
+
+
+
+
+
+
+
+
+/*
+
 
 body div#project1 h2 {
     padding-top: 2rem;
@@ -119,7 +345,6 @@ body div#project1 img {
     margin-bottom: 3rem;
 }
 
-/*first block in first project*/
 body div#project1 div#block {
     display: inline-block;
 }
@@ -128,7 +353,6 @@ body div#project1 div#block p {
     padding-top: 2rem;
 }
 
-/*second block in first project*/
 body div#project1 div#block2 {
     display: inline-block;
 }
@@ -142,7 +366,6 @@ body div#project1 div#block2 p {
     padding-top: -1rem;
 }
 
-/*making sure images / videos do not get too large*/
 img {
     max-width: 100%;
 }
@@ -151,9 +374,8 @@ iframe {
     max-width: 100%;
 }
 
-/* style for project 2 */
 
-/*style for carousel*/
+
 body div#project2 div#myCarousel {
     margin-top: 2.5rem;
 }
@@ -172,7 +394,7 @@ body div#project2 p {
 }
 
 
-/*style for about page*/
+
 
 body div#about div#block {
     padding-top: 3rem;
@@ -184,7 +406,36 @@ body div#about div#block {
 	margin: 0 auto;
 }
 
-/*style for personal photos*/
+.center {
+	position: relative;
+	margin: 0 auto;
+}
+
+
+li {
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+ul {
+	padding-left: 20px;
+}
+
+
+.leftMenu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 300px;
+    background-color: #eee;
+}
+
+.mainContent {
+    position: relative;
+    margin-left: 300px;
+}
+
+
 .outer {
 	text-align: center;
 }
@@ -193,7 +444,57 @@ body div#about div#block {
     padding-top: 2rem;
 }
 
-/*makes sure page is responsive*/
+.inner {
+	width: 120px;
+	height: 120px;
+}
+
+.center {
+	margin: 0 auto;
+}
+
+.loner {
+	width: 100px;
+	height: 100px;
+}
+
+.mini {
+	width: 60px;
+	height: 60px;
+}
+
+.red {
+	background-color: #e25555;
+}
+
+.green {
+	background-color: #55e255;
+}
+
+.orange {
+	background-color: #ffccaa
+}
+
+.fixed {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.relative {
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+
+.absolute {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+*/
+
 @media screen and (max-width: 600px) {
     
 /*    nav*/
@@ -229,5 +530,3 @@ body div#about div#block {
         padding-top: 1rem;
     }
 }
-
-
