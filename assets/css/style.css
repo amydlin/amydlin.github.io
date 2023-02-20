@@ -133,13 +133,17 @@ body nav {
 /*style for main page*/
 
 .desc {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     padding-right: 15%;
 }
 
 .desc h2 {
     padding-top: 2rem;
     padding-bottom: 1rem;
+}
+
+.desc .toppic {
+    margin-bottom: -4rem;
 }
 
 body div.projects div {
@@ -192,6 +196,10 @@ body div#projects a img {
 .top {
     float: left;
     width: 70%;
+}
+
+.top .right {
+    padding-bottom: 4rem;
 }
 
 .main {
