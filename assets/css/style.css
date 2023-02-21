@@ -1,6 +1,7 @@
 /*overall style*/
 html {
     font-family: 'Archivo';
+    color: #1b1b1b;
 }
 
 *{
@@ -9,24 +10,34 @@ html {
 
 /* unvisited link */
 a:link {
-    color: #000000;
+    color: #FF5E00;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #000000;
+    color: #FF5E00;
 }
 
 /* mouse over link */
 a:hover {
-    color: #aaaaaa;
-    text-decoration: none;
+    color: #566382;
+    text-shadow: 3px 3px 3px #A0ABC5;
+/*    text-decoration: underline;*/
+/*    text-underline-position: under;*/
 }
 
 /* selected link */
 a:active {
     color: #777777;
+}
+
+path {
+  fill: transparent;
+}
+
+text {
+  fill: #FF9800;
 }
 
 h1 {
@@ -132,8 +143,24 @@ body nav {
 
 /*style for main page*/
 
-.desc {
+.about {
+    width: 45%;
+}
+
+.about h2 {
+    padding-bottom: 3rem;
+}
+
+.about .meat p {
+    padding-bottom: 1rem;
+}
+
+.about .meat {
     padding-bottom: 2rem;
+}
+
+.desc {
+    padding-bottom: 4rem;
     padding-right: 15%;
 }
 
@@ -157,7 +184,7 @@ body div.projects div {
 body div.projects div p {
     width: 450px;
     padding-top: 0.5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 /*
