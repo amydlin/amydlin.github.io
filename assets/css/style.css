@@ -88,7 +88,7 @@ p {
 }
 
 li {
-    font-size: 1rem;
+    font-size: 1.05rem;
     font-family: "Archivo";
     font-weight: 300;
     line-height: 1.75rem;
@@ -96,7 +96,7 @@ li {
 }
 
 ul {
-    margin-top: -3rem;
+/*    margin-top: -3rem;*/
     padding-bottom: 4rem;
 }
 
@@ -113,6 +113,7 @@ bold {
 
 body {
     padding-left: 15%;
+    padding-right: 15%;
 }
 
 body nav {
@@ -131,12 +132,10 @@ body nav {
 
 .pages {
     float: right;
-    padding-right: 15%;
 }
 
 .pages h1 {
     float: left;
-    padding-right: 1rem;
     font-weight: 300;
 }
 
@@ -177,10 +176,6 @@ body div.projects div {
     padding-bottom: 4rem;
 }
 
-.projects div h2 {
-
-}
-
 body div.projects div p {
     width: 450px;
     padding-top: 0.5rem;
@@ -204,10 +199,10 @@ body div#projects a img {
 /*style for niche page*/
 
 .sidebar {
-    width: 250px;
+    width: 30%;
     float: left;
     margin: 0;
-    padding-right: 100px;
+    padding-right: 5%;
 }
 .sidebar p.label {
     color: #aaa;
@@ -222,15 +217,17 @@ body div#projects a img {
 
 .top {
     float: left;
-    width: 70%;
 }
 
 .top .right {
     padding-bottom: 4rem;
+    width: 45%;
+    float: right;
+    padding-right: 20%;
 }
 
 .main {
-    padding-left: 350px;
+    padding-left: 35%;
     width: 45%;
     margin: 0;
     overflow: auto;
@@ -348,220 +345,106 @@ video {
 
 
 
-
-/*
-.main ul li {
-    list-style-type: disc;
-}
-*/
-
-
-
-
-
-
-
-
-/*
-
-
-body div#project1 h2 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-body div#project1 p {
-    padding-top: .5rem;
-    padding-bottom: 3rem;
-}
-
-body div#project1 img {
-    border: #ccc solid 1px;
-    margin-bottom: 3rem;
-}
-
-body div#project1 div#block {
-    display: inline-block;
-}
-
-body div#project1 div#block p {
-    padding-top: 2rem;
-}
-
-body div#project1 div#block2 {
-    display: inline-block;
-}
-
-body div#project1 div#block2 h3 {
-    padding-top: 3rem;
-    padding-bottom: 1.5rem;
-}
-
-body div#project1 div#block2 p {
-    padding-top: -1rem;
-}
-
-img {
-    max-width: 100%;
-}
-
-iframe {
-    max-width: 100%;
-}
-
-
-
-body div#project2 div#myCarousel {
-    margin-top: 2.5rem;
-}
-
-body div#project2 div#myCarousel div.carousel-inner div.item {
-    padding-bottom: 1rem;
-}
-
-body div#project2 div#myCarousel div.carousel-inner div.item  p {
-    color: #777777;
-    text-shadow: none;
-}
-
-body div#project2 p {
-    padding-top: 1rem;
-}
-
-
-
-
-body div#about div#block {
-    padding-top: 3rem;
-} 
-
-.container {
-	background-color: #eee;
-	width: 70%;
-	margin: 0 auto;
-}
-
-.center {
-	position: relative;
-	margin: 0 auto;
-}
-
-
-li {
-	list-style: none;
-	padding-bottom: 10px;
-}
-
-ul {
-	padding-left: 20px;
-}
-
-
-.leftMenu {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 300px;
-    background-color: #eee;
-}
-
-.mainContent {
-    position: relative;
-    margin-left: 300px;
-}
-
-
-.outer {
-	text-align: center;
-}
-
-.outer img {
-    padding-top: 2rem;
-}
-
-.inner {
-	width: 120px;
-	height: 120px;
-}
-
-.center {
-	margin: 0 auto;
-}
-
-.loner {
-	width: 100px;
-	height: 100px;
-}
-
-.mini {
-	width: 60px;
-	height: 60px;
-}
-
-.red {
-	background-color: #e25555;
-}
-
-.green {
-	background-color: #55e255;
-}
-
-.orange {
-	background-color: #ffccaa
-}
-
-.fixed {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-}
-
-.relative {
-	position: relative;
-	top: 10px;
-	left: 10px;
-}
-
-.absolute {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-}
-
-*/
-
-@media screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
     
-/*    nav*/
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
     
     body nav {
-        padding-bottom: 0rem;
+        padding-bottom: 0;
     }
     
-    body nav div#name h1 {
-        text-align: center;
-        float: none;
+    .about {
+        width: 100%;
+    }
+    
+    .desc {
+        padding-right: 0;
+    }
+    
+    .desc h2 {
+        font-size: 1.75rem;
+    }
+    
+    .desc h3 {
+        font-size: 1rem;
+        line-height: 1.75rem;
+    }
+    
+    .sidebar {
+        width: 100%;
+    }
+    
+    .top {
+        width: 100%;
+    }
+    
+    .top .right {
+        width: 100%;
+        padding-right: 0;
+    }
+    
+    .main {
         padding-left: 0;
-        margin-bottom: 0;
+        width: 100%;
     }
     
-    body nav div#pages h3 {
-        float: none;
-        text-align: center;
+    img.wide {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    
+    .vid {
+        width: 100%;
+    }
+    
+    .vid2 {
+        width: 100%;
+    }
+    
+    .vidtext {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 2rem;
+    }
+    
+    .invisible {
+        display: none;
+    }
+    
+    
+    body div.projects div p {
+        width: 100%;
+        padding-top: 0.25rem;
         padding-bottom: 0rem;
-        padding-top: 0.5rem;
     }
     
-    body div#project1 img {
-        margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1400px) and (min-width: 768px) {
+    
+    .top .right {
+        width: 60%;
+        float: right;
+        padding-right: 5%;
+    }
+
+    .main {
+        padding-left: 35%;
+        width: 60%;
+        margin: 0;
+        overflow: auto;
     }
     
-    body div#project1 div#block p {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+    img.wide {
+        padding-left: 10%;
+        padding-right: 0;
+        width: 90%;
     }
     
-    body div#project1 div#block h3 {
-        padding-top: 1rem;
-    }
+    
+
 }
