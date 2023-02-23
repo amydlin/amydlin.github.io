@@ -1,8 +1,8 @@
 /*overall style*/
 html {
     font-family: 'Archivo';
-    color: #1b1b1b;
-    background-color: #eeeeee;
+    color: #1B1B1B;
+    background-color: #FDFDFD;
 }
 
 *{
@@ -161,7 +161,7 @@ body nav {
 
 .desc {
     padding-bottom: 4rem;
-    padding-right: 15%;
+/*    padding-right: 15%;*/
 }
 
 .desc h2 {
@@ -222,14 +222,14 @@ body div#projects a img {
 
 .top .right {
     padding-bottom: 4rem;
-    width: 45%;
+    width: 50%;
     float: right;
-    padding-right: 20%;
+    padding-right: 15%;
 }
 
 .main {
     padding-left: 35%;
-    width: 45%;
+    width: 50%;
     margin: 0;
     overflow: auto;
 }
@@ -255,10 +255,10 @@ body div#projects a img {
 }
 
 img.wide {
-    padding-left: 10%;
+    padding-left: 20%;
     padding-right: 10%;
     padding-bottom: 4rem;
-    width: 80%;
+    width: 70%;
 }
 
 img.narrow {
