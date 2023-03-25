@@ -23,7 +23,8 @@ a:visited {
 /* mouse over link */
 a:hover {
     color: #566382;
-    text-shadow: 3px 3px 3px #A0ABC5;
+/*    animation: shake 0.5s;*/
+/*    text-shadow: 3px 3px 3px #A0ABC5;*/
 /*    text-decoration: underline;*/
 /*    text-underline-position: under;*/
 }
