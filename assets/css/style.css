@@ -184,6 +184,11 @@ body div.projects div p {
     padding-bottom: 2rem;
 }
 
+.stellic h2 {
+    color: #666;
+    pointer-events: none;
+}
+
 /*
 body div#projects {
     
