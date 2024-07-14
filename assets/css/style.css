@@ -59,7 +59,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-family: "Georgia";
     font-weight: 400;
     line-height: 2.5rem;
@@ -99,7 +99,37 @@ p {
     font-family: "Inter";
     font-weight: 300;
     line-height: 1.75rem;
-/*    margin-top: 0;*/
+}
+
+.click-to-copy {
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Inter";
+    font-weight: 300;
+    line-height: 1.75rem;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+button:hover span {
+    display: none;
+}
+
+button:hover:before {
+    content: "amydlin@gmail.com";
+}
+
+button.click-to-copy + span { 
+    display: none;
+    font-size: 1rem;
+    font-family: "Inter";
+    font-weight: 300;
+    line-height: 1.75rem;
+}
+
+/* When the click event is fired, and the .is-copied class is added to the button, show the tooltip */
+button.click-to-copy.is-copied + span {
+  display: initial;
 }
 
 li {
