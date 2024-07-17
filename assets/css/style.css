@@ -186,7 +186,7 @@ div.niche:hover {
 
 
 div.niche:hover:after {
-    content: url(assets/images/index/nichelogo.png);
+/*    content: url(assets/images/index/nichelogo.png);*/
     display:block;
     position: absolute;
     width: 100%;
