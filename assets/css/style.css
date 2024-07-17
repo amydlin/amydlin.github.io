@@ -13,6 +13,7 @@ html {
 a:link {
     color: #FF5E00;
     text-decoration: none;
+    font-weight: 400;
 }
 
 /* visited link */
@@ -41,6 +42,7 @@ button.click-to-copy {
     letter-spacing: -0.2px;
     transition: all .2s ease-in-out;
     font-family: 'Inter';
+    font-weight: 400;
     color: #FF5E00;
 }
 
@@ -264,7 +266,7 @@ body div.projects div p {
 }
 
 .stellic h2 {
-    color: #666;
+    color: #a7a7a7;
     pointer-events: none;
 }
 
