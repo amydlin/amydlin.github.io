@@ -179,19 +179,21 @@ bold {
 /*    transform: translate(50%, 50%);*/
 }
 
+/*
 div.niche:hover {
-/*    display: contents;*/
+    display: contents;
     position: relative;
 }
 
 
 div.niche:hover:after {
-/*    content: url(assets/images/index/nichelogo.png);*/
+    content: url(assets/images/index/nichelogo.png);
     display:block;
     position: absolute;
     width: 100%;
     height: 100%;
 }
+*/
 
 
 body {
