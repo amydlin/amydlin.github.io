@@ -91,7 +91,6 @@ h6 {
     line-height: 1.2rem;
     font-family: "Inter";
     font-weight: 300;
-    text-align: center;
     color: #474747;
     font-style: italic;
 }
@@ -103,12 +102,46 @@ p {
     line-height: 1.75rem;
 }
 
-a.rotate {
-    transform-origin: 0 0;
-    transform: rotate(-90deg);
+/*
+a.onmain {
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Inter";
+    color: #FF5E00;
+    background-color: #fff;
+    border: none;
+    border-color: #FF5E00;
+    border-radius: 4px;
+    cursor: pointer;
 }
+*/
 
-button {
+/*
+a.onmain span {
+    display: none;
+}
+*/
+/*
+
+a.onmain:hover span {
+    display: contents;
+    transition: all 600ms ease-in-out;
+    color: #566382;
+}
+*/
+
+/*
+button.onmain:hover {
+    font-style: italic;
+    color: #566382;
+    border-color: #4285F4;
+    transition: all 600ms ease-in-out;
+}
+*/
+
+
+
+button.click-to-copy {
     padding: 0;
     font-size: 1rem;
     font-family: "Inter";
@@ -179,10 +212,7 @@ bold {
 /*    transform: translate(50%, 50%);*/
 }
 
-/*
 div.niche:hover {
-    display: contents;
-    position: relative;
 }
 
 
@@ -193,17 +223,36 @@ div.niche:hover:after {
     width: 100%;
     height: 100%;
 }
-*/
 
+html {
+    height: 100%;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+
+  background-color: #FF5E00;
+  opacity: 1;
+  background-image:  repeating-linear-gradient(45deg, #FF5E00 25%, transparent 25%, transparent 75%, #FF5E00 75%, #FF5E00), repeating-linear-gradient(45deg, #FF5E00 25%, #FFFFFF 25%, #FFFFFF 75%, #FF5E00 75%, #FF5E00);
+  background-position: 0 0, 10px 10px;
+  background-size: 20px 20px;
+
+}
 
 body {
     padding-left: 12%;
     padding-right: 12%;
+    width: 76%;
+    background: #fff;
+    min-height: 100%;
 }
 
 body nav {
     padding-top: 2rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .nav {
@@ -262,14 +311,15 @@ body div.projects div {
 }
 
 body div.projects div p {
-    width: 500px;
-    padding-top: 0.5rem;
+    width: 600px;
+    padding-top: 0.2rem;
     padding-bottom: 2rem;
 }
 
-.stellic h2 {
+.stellic h3 {
     color: #a7a7a7;
     pointer-events: none;
+    font-weight: 400;
 }
 
 /*
@@ -285,6 +335,21 @@ body div#projects a img {
     float: left;
 }
 */
+
+.preheader {
+/*    color: #777;*/
+/*    font-style: italic;*/
+    font-size: 0.8rem;
+    padding-bottom: 0.25rem;
+}
+
+body div.projects div h3 {
+    font-size: 1.5rem;
+}
+
+body div.projects div p {
+    padding-bottom: 1rem;
+}
 
 /*style for niche page*/
 
