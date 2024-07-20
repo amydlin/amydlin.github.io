@@ -212,17 +212,6 @@ bold {
 /*    transform: translate(50%, 50%);*/
 }
 
-div.niche:hover {
-}
-
-
-div.niche:hover:after {
-    content: url(assets/images/index/nichelogo.png);
-    display:block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
 
 html {
     height: 100%;
