@@ -116,19 +116,15 @@ a.onmain {
 }
 */
 
-/*
 a.onmain span {
     display: none;
 }
-*/
-/*
 
 a.onmain:hover span {
     display: contents;
     transition: all 600ms ease-in-out;
     color: #566382;
 }
-*/
 
 /*
 button.onmain:hover {
@@ -266,7 +262,8 @@ body nav {
 /*style for main page*/
 
 .about {
-    width: 45%;
+/*    width: 45%;*/
+    width: 600px;
 }
 
 .about h2 {
@@ -480,6 +477,7 @@ video {
     body {
         padding-left: 5%;
         padding-right: 5%;
+        width: 90%;
     }
     
     body nav {
