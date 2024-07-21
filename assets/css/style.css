@@ -272,7 +272,11 @@ body nav {
 }
 
 .about .meat p {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+}
+
+.about .meat p.last {
+    padding-bottom: 8rem;
 }
 
 .bigger {
@@ -297,9 +301,12 @@ body nav {
 .mephoto img {
 /*    display: block;*/
     padding-top: 2rem;
-    width: 100%;
-    height: 100%;
+    padding-left: 4rem;
+    width: 350px;
+    height: auto;
     margin: auto;
+/*    -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 */
+/*    filter: grayscale(100%);*/
 }
 
 
@@ -575,6 +582,9 @@ video {
         padding-left: 0;
     }
     
+    .about .meat p.last {
+        padding-bottom: 2rem;
+    }
     
     .bigger {
         position: static;
@@ -588,15 +598,11 @@ video {
         transform: translate(0, 0);
     }
     
-/*
     .mephoto img {
         width: 100%;
         position: relative;
-        top: 0%;
-        left: 0%;
-        transform: translate(0, 0);
+        padding-left: 0;
     }
-*/
     
     .sidebar {
         width: 100%;
