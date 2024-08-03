@@ -305,7 +305,7 @@ body nav {
     width: 350px;
     height: auto;
     margin: auto;
-/*    -webkit-filter: grayscale(100%);  Safari 6.0 - 9.0 */
+/*    -webkit-filter: grayscale(100%);  */
 /*    filter: grayscale(100%);*/
 }
 
@@ -420,13 +420,22 @@ body div.projects div p {
 
 .top {
     float: left;
+    padding-bottom: 4rem;
 }
 
 .top .right {
-    padding-bottom: 4rem;
+/*    padding-bottom: 4rem;*/
     width: 59%;
     float: right;
     padding-right: 21%;
+}
+
+.top h3 {
+    padding-bottom: 1rem;
+}
+
+.top p.right {
+    padding-bottom: 4rem;
 }
 
 .main {
@@ -438,6 +447,10 @@ body div.projects div p {
 
 .main h2 {
     padding-bottom: 2rem;
+}
+
+.main h3 {
+    padding-bottom: 1rem;
 }
 
 .main p {
